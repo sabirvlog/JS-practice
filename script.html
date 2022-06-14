@@ -10,47 +10,243 @@
 	<h3 class="h3">JavaScript Tutorial <strong> Starter </strong></h3>
 
 <!-- Target element using Id attribute -->
-	<div id="name">
+	<!-- <div id="name">
 		<h1>
 			sabir khan
 		</h1>
-	</div>
+	</div> -->
 
 <!-- Target element using class attribute -->
+<!--
 	<div class="country">
 		<h2>
 			My country is Pakistan.
  		</h2>
+	</div> -->
+
+
+	<!--  Next lecture 08-06-2022  -->
+<!-- 	<div id="res"> 
+		SK Learn Coding
+	</div>  -->
+
+	<!-- <h1 class ="res"></h1>  -->
+	
+	<div class ="res">
+		<h1>First 1</h1>
+
+		 Coding with sabir
 	</div>
+	
+	<div class="res">
+		<h1>Second 2</h1>
+
+		 SK Learn Coding
+	</div>
+
 </body>
 	<script type="text/javascript">
-		/* Step 1 */
-		document.write("Hello World! ,<br>");
+		// /* Step 1 */
+		// document.write("Hello World! ,<br>");
 
-		/* Step 2 */
-		var age = "20-Years";
-		var name = "sabir Khan";
-		document.write(age,"&nbsp;",name);  
-		console.log("by using variables");
+		// /* Step 2 */
+		// var age = "20-Years";
+		// var name = "sabir Khan";
+		// document.write(age,"&nbsp;",name);  
+		// console.log("by using variables");
 
-		/* Step 3 */
-	    document.getElementById("name").innerHtml;
-	    console.log("Command successfully Executed");
+		// /* Step 3 */
+	 //    document.getElementById("name").innerHtml;
+	 //    console.log("Command successfully Executed");
 
-	    /* Step 4 */
-	    alert("Are you ready for ligin into the site?");
+	 //    /* Step 4 */
+	 //    alert("Are you ready for ligin into the site?");
 	    
-	    /* Step 5 */
-	    prompt("Enter your name here to signup!");
+	 //    /* Step 5 */
+	 //    prompt("Enter your name here to signup!");
 
-	    /* Step 6 */
-	    confirm("Welcome on this website your permission is guaranteed");
+	 //    /* Step 6 */
+	 //    confirm("Welcome on this website your permission is guaranteed");
 
-	    /* Step 7 */
-	    document.getElementByClassName("country").innerHtml;
-	    console.log("Elememts target by className");
+	 //    /* Step 7 */
+	 //    var x = document.getElementsByClassName("country");
+	 //    alert(x);             
 
 	    /* Till 7-06-2022. Today lecture. */
+/* ........................................................................  -->
+
+	   /* Till 08-06-2022. Today lecture. */
+/*
+	    var x = "Hello" ;
+	    alert(x);
+	    document.getElementById('res').innerHTML= x; 
+*/
+// By using Arithmatic Operators ......
+/*
+// By Addition method...
+	    var a = 5;
+	    var b = 9;
+	    var z;
+	    z=a+b;
+	    document.getElementById('res').innerHTML= z;
+
+// By subtraction.....
+    	var a = 5;
+		var b= 8;
+		var z= b-a;
+		document.getElementById('res').innerHTML= z;
+
+// By Multiplication.....
+	    var a = 5;
+		var b = 8;
+		var z= a * b;
+		document.getElementById('res').innerHTML= z;
+
+// By Division.....
+        var a = 5;
+		var b= 8;
+		var z=a / b;
+		document.getElementById('res').innerHTML= z;
+
+// By Mode ....
+		var a = 5;
+		var b= 8;
+		var z= b % a;
+		document.getElementById('res').innerHTML= z;
+
+// By Increment and decrement operator.... ++ , -- ,,,, (it means increase or decrease in an integer by one)
+/*		
+		var z= 5;
+		z++;
+		document.getElementById('res').innerHTML= z;
+		
+		var z= 5;
+		z--;
+		document.getElementById('res').innerHTML= z;
+*/
+
+// By using Logical Operators.....  &&, || 
+
+// By using And (&&) operator.....
+/*		var a = true;
+		var b= false;
+		var z= a && b;
+		document.getElementById('res').innerHTML= z;
+
+		var a = true;
+		var b= true;
+		var z= a && b;
+		document.getElementById('res').innerHTML= z;
+		
+		var a = false;
+		var b= false;
+		var z= a && b;
+		document.getElementById('res').innerHTML= z;
+*/
+
+// By using OR (||) operator.....
+/*		var a = true;
+		var b= false;
+		var z= a || b;
+		document.getElementById('res').innerHTML= z;
+
+		var a = true;
+		var b= true;
+		var z= a || b;
+		document.getElementById('res').innerHTML= z;
+		
+		var a = false;
+		var b= false;
+		var z= a || b;
+		document.getElementById('res').innerHTML= z;
+*/
+
+// By using Ternary Operators..... a > b ? yes : No ;
+	/*
+		var a = 8;
+		var b = 26;
+		var z = a > b ? "yes" : "No" ;
+		document.getElementById('res').innerHTML= z;
+*/
+
+// By using Assignment Operators..... +=, -= , /= , *= .....(+= means that add an assign)
+/*		
+		var a = 5;
+		var z = 9;
+		z += a;
+		document.getElementById('res').innerHTML= z;
+
+		var a = 5;
+		var z= 9;
+	 	 z -= a;
+		document.getElementById('res').innerHTML= z;
+	
+		var a = 5;
+		var z = 9;
+		z *= a;
+		document.getElementById('res').innerHTML= z;
+        
+        var a = 9;
+		var z= 16;
+		z /= a;
+		document.getElementById('res').innerHTML= z;
+
+		var a = 9;
+		var z= 16;
+		z %= a;
+		document.getElementById('res').innerHTML= z;
+
+		
+
+// By using Comparision Operators.....	
+	
+	/*	var a = 15;
+		var b= 18;
+		var z= b > a;
+		document.getElementById('res').innerHTML= z;
+
+		var a = 15;
+		var b= 18;
+		var z= b < a;
+		document.getElementById('res').innerHTML= z;
+
+		var a = 15;
+		var b= 18;
+		var z= b >= a;
+		document.getElementById('res').innerHTML= z;
+
+		var a = 15;
+		var b= 18;
+		var z= b <= a;
+		document.getElementById('res').innerHTML= z;
+
+		var a = 15;
+		var b= 18;
+		var z= b == a;
+		document.getElementById('res').innerHTML= z;
+
+		var a = 15;
+		var b= 18;
+		var z= b != a;
+		document.getElementById('res').innerHTML= z;
+*/
+
+//  IF we want to add this code into the body tag and wana print it on the screen....
+	/*
+		document.getElementById("res").innerHTML= "<h2> SK Learn Coding </h2>";
+	*/
+
+// For changing place of two or more already written contents in innerHtml......
+/*
+	document.getElementsByClassName("res")[1].innerHTML; 
+	//= "<h1> Coding with sabir </h1>";
+	document.getElementsByClassName("res")[0].innerHTML; 
+	//= "<h1> SK Learn Coding </h1>";
+*/
+
+// (Functions) .... Functions Use and its Basics Principals.....
+
+
 
 	</script>
 </html>

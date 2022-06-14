@@ -27,3 +27,7 @@ body {
 	margin-left: 30px;
 	margin-bottom: 20px;
 }
+#res, .res {
+	width: 300px;
+	margin: 50px auto;
+}
